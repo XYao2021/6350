@@ -1,0 +1,44 @@
+Average Perceptron Results:
+
+For this algorithm, I check the Wikipedia and some videos and slices from other universities class, the training process is same as vote perceptron and the only difference between the Average Perceptron and Vote Perceptron is the testing method, which in this case we only focus on the sign of sum of prediction multiple with the weights (Cm) for each weights we have (rather than the sign of sum of signs). So the weights for each iteration are same as vote perceptron algorithm, but the test error is slight different.
+
+T=1:
+W = [-2414.0804533 -1173.455175   -938.6441745  -617.8002756] b = 1067.200000000002
+Test Error = 0.042 
+
+T=2:
+W = [-5406.3976535 -3015.244439  -2780.0298725 -1248.0662331] b = 3045.400000000007
+Test Error = 0.026 
+
+T=3:
+[-8522.2116897 -5211.781703  -4934.212438  -2108.783339 ] 5528.599999999907
+2 0.02 
+Test Error = 0.02
+
+T=4:
+W = [-12170.2256039  -7787.374227   -7568.996646   -2829.5942203] b = 8371.599999999858
+Test Error = 0.018 
+
+T=5:
+W = [-16209.4998501 -10402.613061  -10340.483084   -3660.728276 ] b = 11580.199999999868
+Test Error = 0.016
+
+T=6:
+W = [-20476.4125003 -13200.965435  -13213.632712   -4502.8518311] b = 15094.299999999961
+Test Loss = 0.016 
+
+T=7:
+W = [-24982.7438725 -16185.621809  -16343.77036    -5486.4470816] b = 18886.900000000158
+Test Loss = 0.014
+
+T=8:
+W = [-29724.0264147 -19349.353343  -19680.969518   -6325.8358865] b = 22864.59999999976
+Test Loss = 0.014
+
+T=9:
+W = [-35093.5601519 -22366.616017  -22984.69376    -6950.2205778] b = 27073.399999999718
+Test Loss = 0.014
+
+T=10:
+W = [-40635.8350841 -25346.737641  -26286.267272   -7797.5503825] b = 31725.19999999968
+Test Loss = 0.014   
