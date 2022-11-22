@@ -53,7 +53,6 @@ train = data_change(train_org)
 test = data_change(test_org)
 
 Set_gamma = [0.1, 0.5, 1, 5, 100]
-# Set_gamma = [0.1]
 
 for gamma in Set_gamma:
     train_set = train.copy()

@@ -27,7 +27,8 @@ EPOCH = 100
 #     print(C, 'Epoch Weights: ', w)
 #     print(C, 'Training Loss: ', round(100*train_Loss, 3))
 #     print(C, 'Testing Loss: ', round(100*test_Loss, 3), '\n')
-#
+
+# SVM Dual Form
 # for C in Set_C:
 #     w, train_acc, test_acc = SVM_dual(C, train, test)
 #     print(C, 'w: ', w)

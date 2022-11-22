@@ -78,13 +78,10 @@ label = [data[-1] for data in train_org]
 train = data_change(train_org)
 test = data_change(test_org)
 
-a = 1
 Set_gamma = [0.1, 0.5, 1, 5, 100]
-signal = 1
 
 # Hyper-parameters
 Set_C = [100/873, 500/873, 700/873]
-EPOCH = 100
 
 for C in Set_C:
     bound = (0, C)
